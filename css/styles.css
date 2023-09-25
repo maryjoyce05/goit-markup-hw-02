@@ -1,19 +1,88 @@
 :root {
   --NAVY-BLUE: #2e2f42;
   --IRIS: #4d5ae5;
+  --CLOUD: #f4f4fd;
+  --SLATE: #434455;
+}
+.main-page {
+  font-family: Roboto;
+  color: var(--SLATE);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.btn-pointer {
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.64px;
+  color: white;
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--IRIS, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.btn-pointer:hover,
+.btn-pointer:focus {
+  color: var(--NAVY-BLUE);
+}
+.btn-pointer:active {
+  color: red;
+}
+
+.about-link {
+  text-decoration: none;
+  color: var(--NAVY-BLUE);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+
+.about-link:hover,
+.about-link:focus {
+  color: var(--IRIS);
+}
+.about-link:active {
+  color: red;
+}
+
+.about-contact a {
+  text-decoration: none;
+  color: var(--NAVY-BLUE);
+}
+
+.about-contact a:hover,
+.about-contact a:focus {
+  color: var(--IRIS);
+}
+
+.about-contact a:active {
+  color: red;
 }
 
 .title {
   background-color: var(--NAVY-BLUE);
 }
 
-.title h1 {
+.title-effective {
   color: white;
   text-align: center;
-  font-family: Roboto;
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
+  line-height: 107.143%;
   letter-spacing: 1.12px;
 }
 
@@ -22,22 +91,29 @@
   color: white;
 }
 
-h2 {
+.solutions-list h3,
+.team-members h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.4px;
+  color: var(--NAVY-BLUE);
+}
+
+.team h2,
+.doing h2 {
   text-align: center;
   font-size: 36 px;
   font-weight: 700;
-}
-
-a {
-  text-decoration: none;
-  color: #2e2f42;
+  line-height: 111.111%;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
 }
 
 .logo span {
   color: var(--IRIS);
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
   letter-spacing: 0.54px;
   text-transform: uppercase;
@@ -47,17 +123,23 @@ a {
   color: var(--NAVY-BLUE);
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 
-.footer {
+.footer,
+.footer a {
   background-color: var(--NAVY-BLUE);
-  color: white;
+  color: var(--CLOUD);
 }
 
-.footer a {
-  color: white;
+.team-members,
+.doing-list,
+.solutions-list,
+.about,
+.about-contact {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
