@@ -1,0 +1,63 @@
+:root {
+  --NAVY-BLUE: #2e2f42;
+  --IRIS: #4d5ae5;
+}
+
+.title {
+  background-color: var(--NAVY-BLUE);
+}
+
+.title h1 {
+  color: white;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1.12px;
+}
+
+.title button {
+  background-color: var(--IRIS);
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36 px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #2e2f42;
+}
+
+.logo span {
+  color: var(--IRIS);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logo {
+  color: var(--NAVY-BLUE);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.footer {
+  background-color: var(--NAVY-BLUE);
+  color: white;
+}
+
+.footer a {
+  color: white;
+}
